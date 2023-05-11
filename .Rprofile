@@ -26,6 +26,7 @@ library(tidyverse)
 library(Rcpp)
 library(readxl)
 library(cowplot)
+library(ggsci)
 
 # マルチコア対応
 options(mc.cores = parallel::detectCores())
@@ -57,4 +58,4 @@ source( "../function/Create_Metis_MF3_SCname.R",encoding = "utf8" )
 # install.packages("ggthemes")
 # install.packages("KFAS")
 # install.packages("readxl")
-
+# install.packages("ggsci")
